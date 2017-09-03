@@ -12,3 +12,6 @@ JavaのCountDownLatchのサンプルプログラム
 3. 計算が終わったワーカースレッドはCountDownLatch#countDownを呼び出し、CountDownLatchのカウントを減らす。
 4. CountDownLatchのカウントが0になると、メインスレッドの処理が再開する。
 5. メインスレッドは、ワーカースレッドの計算結果を全ての合計し、合計値をコンソール出力する。
+
+# バージョン
+Java 1.8
